@@ -122,6 +122,7 @@ public class GamePanel extends JPanel implements KeyListener, ActionListener {
 			win = true;
 			currentState = End_State;
 		}
+		TreeCount = mainPlayer.Inventory.size();
 	}
 
 	void updateEndState() {
